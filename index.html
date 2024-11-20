@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebXR Test</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+        }
+        .buttons {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            z-index: 10;
+        }
+        button {
+            margin: 5px;
+            padding: 10px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="buttons">
+        <button id="cubeButton">Cubo</button>
+        <button id="coneButton">Cono</button>
+        <button id="cylinderButton">Cilindro</button>
+    </div>
+    <script type="module" src="js/testWebXR.js"></script>
+</body>
+</html>
